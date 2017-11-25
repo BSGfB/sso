@@ -7,8 +7,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ImageComponent implements OnInit {
 
-  @Input()
-  public imageName: string;
+  @Input() public imageName: string;
 
   constructor() {
     this.imageName = 'default.png';

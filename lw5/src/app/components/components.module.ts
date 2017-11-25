@@ -5,6 +5,7 @@ import {RightSideComponent} from './right-side/right-side.component';
 import { InfoComponent } from './info/info.component';
 import { ContactInfoComponent } from './contact-info/contact-info.component';
 import { ImageComponent } from './image/image.component';
+import { IconTextComponent } from './icon-text/icon-text.component';
 
 @NgModule({
   imports: [
@@ -15,7 +16,8 @@ import { ImageComponent } from './image/image.component';
     RightSideComponent,
     InfoComponent,
     ContactInfoComponent,
-    ImageComponent
+    ImageComponent,
+    IconTextComponent
   ],
   exports: [
     LeftSideComponent,

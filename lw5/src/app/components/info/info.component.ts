@@ -8,11 +8,10 @@ import {Info} from '../../models/info';
 })
 export class InfoComponent implements OnInit {
 
-  @Input()
-  public info: Info;
+  @Input() public info: Info;
 
   constructor() {
-    this.info = new Info('Name', 'Nickname', 'Short bio');
+    this.info = new Info('Siarhei Blashuk', 'Nickname', 'Short bio');
   }
 
   ngOnInit() {

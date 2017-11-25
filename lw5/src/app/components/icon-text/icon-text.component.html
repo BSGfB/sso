@@ -1,0 +1,6 @@
+<div class="row">
+  <i class="material-icons md-24">{{icon}}</i>
+  <div *ngIf="type == textType.TEXT">{{text}}</div>
+  <a *ngIf="type == textType.LINK" [href]="text">{{text}}</a>
+  <a *ngIf="type == textType.EMAIL">{{text}}</a>
+</div>
