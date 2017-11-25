@@ -18,3 +18,51 @@
 **/lodash.js
 #file which is used by Dolphi
 **/.directory
+
+
+*.iml
+
+*.log
+*.log.gz
+
+## Directory-based site format:
+.idea/
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based site format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+logs.txt
+/logs/
+
+**/target/
+.directory
+**/gradle/
+**/.gradle/
+**/build/
+**/node_modules/
+**/build.gradle/
+**/dist/
+
