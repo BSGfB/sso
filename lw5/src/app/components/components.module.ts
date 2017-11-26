@@ -6,6 +6,8 @@ import { InfoComponent } from './info/info.component';
 import { ContactInfoComponent } from './contact-info/contact-info.component';
 import { ImageComponent } from './image/image.component';
 import { IconTextComponent } from './icon-text/icon-text.component';
+import { TabComponent } from './tab/tab.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   imports: [
@@ -17,7 +19,9 @@ import { IconTextComponent } from './icon-text/icon-text.component';
     InfoComponent,
     ContactInfoComponent,
     ImageComponent,
-    IconTextComponent
+    IconTextComponent,
+    TabComponent,
+    TabsComponent
   ],
   exports: [
     LeftSideComponent,
