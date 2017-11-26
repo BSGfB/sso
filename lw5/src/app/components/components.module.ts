@@ -8,6 +8,7 @@ import { ImageComponent } from './image/image.component';
 import { IconTextComponent } from './icon-text/icon-text.component';
 import { TabComponent } from './tab/tab.component';
 import { TabsComponent } from './tabs/tabs.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { TabsComponent } from './tabs/tabs.component';
     ImageComponent,
     IconTextComponent,
     TabComponent,
-    TabsComponent
+    TabsComponent,
+    ButtonComponent
   ],
   exports: [
     LeftSideComponent,
