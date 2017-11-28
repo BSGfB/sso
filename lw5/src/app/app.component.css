@@ -5,4 +5,10 @@
 
 app-left-side {
   margin-right: 32px;
+  flex-grow: 0;
+  width: 20%; 
+}
+
+app-right-side {
+  flex-grow: 3;
 }

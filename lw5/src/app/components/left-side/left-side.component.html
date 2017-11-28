@@ -1,9 +1,9 @@
-<div class="card">
-    <app-image></app-image>
+<div class="card" *ngIf="user">
+    <app-image [imageName]="user.img"></app-image>
 
     <div class="card-bottom">
-        <app-info></app-info>
+        <app-info [info]="user.info"></app-info>
         <hr>
-        <app-contact-info></app-contact-info>
+        <app-contact-info [info]="user.contactInfo"></app-contact-info>
     </div>
 </div>

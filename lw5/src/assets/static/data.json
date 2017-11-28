@@ -1,0 +1,15 @@
+{
+    "id": 1,
+    "img": "1.jpeg",
+    "info": {
+        "name": "Siarhei Blashuk",
+        "nickname": "BSGfB",
+        "shortDescription": "Hello, my name is Siarhei and i'm from Belarus, Brest. I'm student."
+    },
+    "contactInfo": {
+        "email": "mr-serj@outlook.com",
+        "site": "https://github.com/BSGfB",
+        "location": "Belarus, Brest",
+        "socialNetwork": "Odnoklassniki"
+    }
+}

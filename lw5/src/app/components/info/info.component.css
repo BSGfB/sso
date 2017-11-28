@@ -20,3 +20,6 @@
   line-height: 24px;
 }
 
+.description {
+  word-wrap: break-word;
+}
