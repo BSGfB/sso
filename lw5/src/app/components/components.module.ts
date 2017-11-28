@@ -9,6 +9,7 @@ import { IconTextComponent } from './icon-text/icon-text.component';
 import { TabComponent } from './tab/tab.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { ButtonComponent } from './button/button.component';
+import { MainTabComponent } from './main-tab/main-tab.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ import { ButtonComponent } from './button/button.component';
     IconTextComponent,
     TabComponent,
     TabsComponent,
-    ButtonComponent
+    ButtonComponent,
+    MainTabComponent
   ],
   exports: [
     LeftSideComponent,
