@@ -1,6 +1,6 @@
 import { User } from './../../models/user';
-import { UserService } from './../../services/user.service';
 import { Component, OnInit } from '@angular/core';
+import { UserService } from '../../services/user-service';
 
 @Component({
   selector: 'app-left-side',
@@ -11,7 +11,7 @@ export class LeftSideComponent implements OnInit {
   user: User;
 
   constructor(private userSerivce: UserService) {
-    this.userSerivce.getUser().subscribe(user => {
+    this.userSerivce.findByLogin('BSGfB').subscribe(user => {
       this.addLogUser(user);
       this.user = user;
     });

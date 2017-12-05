@@ -8,3 +8,11 @@
 .row i {
   padding-right: 5px;
 }
+
+.row > div, .row > a {
+  text-decoration: none; 
+  text-overflow: ellipsis; 
+  display: block; 
+  overflow: hidden; 
+  white-space: nowrap;
+}

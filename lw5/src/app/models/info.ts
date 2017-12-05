@@ -1,6 +1,6 @@
 export class Info {
   constructor(public name: string,
-              public nickname: string,
+              public login: string,
               public shortDescription: string) {
   }
 }
