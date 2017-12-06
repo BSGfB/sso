@@ -7,10 +7,10 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class ImageComponent implements OnInit {
 
-  @Input() public imageName: string;
+  @Input() public imagePath: string;
 
   constructor() {
-    this.imageName = 'default.png';
+    this.imagePath = '../../../assets/static/img/default.png';
   }
 
   ngOnInit() {

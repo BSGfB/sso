@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "1.jpeg",
+        "img": "assets/static/img/1.jpeg",
         "info": {
             "name": "Siarhei Blashuk",
             "login": "BSGfB",
