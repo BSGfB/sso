@@ -1,12 +1,14 @@
 .main {
   display: flex;
   flex-direction: row;
+  width: 80%;
+  margin: 32px auto;
 }
 
 app-left-side {
   margin-right: 32px;
   flex-grow: 0;
-  width: 20%; 
+  width: 30%;
 }
 
 app-right-side {

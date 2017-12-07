@@ -6,6 +6,8 @@ import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {ComponentsModule} from './components/components.module';
 import {GitHubUserService} from './services/git-hub-user.service';
+import {NgRedux, NgReduxModule} from '@angular-redux/store';
+import {rootReducer, UserState} from './store/store';
 
 /**
  * Available user services:
@@ -18,10 +20,14 @@ import {GitHubUserService} from './services/git-hub-user.service';
   imports: [
     BrowserModule,
     HttpModule,
-    ComponentsModule
+    ComponentsModule,
+    NgReduxModule
   ],
   providers: [{provide: UserService, useClass: GitHubUserService}],
   bootstrap: [AppComponent]
 })
 export class AppModule {
+  constructor(ngRedux: NgRedux<UserState>, private userService: UserService) {
+    ngRedux.configureStore(rootReducer, {user: undefined });
+  }
 }

@@ -1,0 +1,51 @@
+.header {
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  white-space: normal;
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  outline: none;
+  display: block;
+  font-size: 24px!important;
+}
+
+.item input {
+  border: 0;
+  color: #212121;
+  padding: 8px 8px 8px 8px;
+  transition: color .2s;
+  width: 100%;
+  border-radius: 2px;
+  font: 16px/20px Roboto,sans-serif;
+  margin: 0;
+  max-width: 100%;
+  outline: 0;
+  vertical-align: middle;
+  background-color: #f5f5f5;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  background-color: #f5f5f5;
+  align-items: center;
+}
+
+.search i {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgba(0,0,0,.54);
+}
+
+.item-long {
+  flex: 1 0;
+}
