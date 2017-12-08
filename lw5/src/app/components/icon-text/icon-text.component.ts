@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {TextType} from '../../models/text-type.enum';
+import {TextType} from '../../models';
 
 @Component({
   selector: 'app-icon-text',

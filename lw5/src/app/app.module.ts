@@ -1,11 +1,9 @@
-import {UserService} from './services/user-service';
+import {GitHubUserService, UserService} from './services';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-
 import {HttpModule} from '@angular/http';
 import {AppComponent} from './app.component';
 import {ComponentsModule} from './components/components.module';
-import {GitHubUserService} from './services/git-hub-user.service';
 import {NgRedux, NgReduxModule} from '@angular-redux/store';
 import {rootReducer, UserState} from './store/store';
 

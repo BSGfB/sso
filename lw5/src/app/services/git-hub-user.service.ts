@@ -1,10 +1,8 @@
 import {Injectable} from '@angular/core';
 import {UserService} from './user-service';
 import {Observable} from 'rxjs/Observable';
-import {User} from '../models/user';
+import {ContactInfo, Info, User} from '../models';
 import {Http} from '@angular/http';
-import {Info} from '../models/info';
-import {ContactInfo} from '../models/contact-info';
 
 import 'rxjs/add/observable/throw';
 import 'rxjs/add/operator/map';

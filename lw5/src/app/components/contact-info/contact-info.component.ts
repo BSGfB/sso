@@ -1,6 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ContactInfo} from '../../models/contact-info';
-import {TextType} from '../../models/text-type.enum';
+import {ContactInfo, TextType} from '../../models';
 
 @Component({
   selector: 'app-contact-info',

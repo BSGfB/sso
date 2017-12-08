@@ -1,6 +1,6 @@
-import { User } from '../../models/user';
+import { User } from '../../models';
 import { Component, OnInit } from '@angular/core';
-import { UserService } from '../../services/user-service';
+import { UserService } from '../../services';
 import {NgRedux} from '@angular-redux/store';
 import {UserState} from '../../store/store';
 

@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Info} from '../../models/info';
+import {Info} from '../../models';
 
 @Component({
   selector: 'app-info',

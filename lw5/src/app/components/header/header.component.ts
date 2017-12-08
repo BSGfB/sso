@@ -1,7 +1,8 @@
-import {AfterViewInit, Component, OnInit} from '@angular/core';
+import {AfterViewInit, Component} from '@angular/core';
 import {NgRedux} from '@angular-redux/store';
 import {UserState} from '../../store/store';
-import {UserService} from '../../services/user-service';
+import {UserService} from '../../services';
+import {StoreState} from '../../models';
 
 @Component({
   selector: 'app-header',
@@ -14,14 +15,14 @@ export class HeaderComponent implements AfterViewInit {
 
   ngAfterViewInit(): void {
     this.ngRedux.dispatch({
-      type: 'SHOW_USER',
+      type: StoreState.SHOW_USER,
       user: this.userSerivce.findByLogin('BSGfB')
     });
   }
 
   onEnter(event) {
     this.ngRedux.dispatch({
-      type: 'SHOW_USER',
+      type: StoreState.SHOW_USER,
       user: this.userSerivce.findByLogin(event.target.value)
     });
 

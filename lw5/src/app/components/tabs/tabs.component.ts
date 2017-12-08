@@ -7,19 +7,19 @@ import { TabComponent } from '../tab/tab.component';
   styleUrls: ['./tabs.component.css']
 })
 export class TabsComponent {
+  tabs: TabComponent[] = [];
 
-  tabs:TabComponent[] = [];
-
-  addTab(tab:TabComponent) {
-    if (!this.tabs.length)
+  addTab(tab: TabComponent) {
+    if (!this.tabs.length) {
       tab.selected = true;
+    }
 
     this.tabs.push(tab);
   }
 
-  selectTab(tab:TabComponent) {
-    this.tabs.map((tab) => { tab.selected = false; })
-    
+  selectTab(tab: TabComponent) {
+    this.tabs.map((tab) => { tab.selected = false; });
+
     tab.selected = true;
   }
 }
