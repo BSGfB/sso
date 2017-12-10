@@ -1,4 +1,4 @@
 <div class="content">
-  <app-button text="Edit" icon="mode_edit"></app-button>
-  <textarea placeholder="Main information about user"></textarea>
+  <app-switch text="Editable" (switchClick)="onSwitchClick($event)"></app-switch>
+  <textarea placeholder="Main information about user" [readonly]="isReadonly" ></textarea>
 </div>

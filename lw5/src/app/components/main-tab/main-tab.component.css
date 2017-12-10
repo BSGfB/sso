@@ -3,10 +3,9 @@
     flex-direction: column;
 }
 
-app-button {
+.content * {
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 32px;
 }
 
 textarea {
@@ -24,7 +23,10 @@ textarea {
   min-height: 250px;
 }
 
-textarea:focus{
+textarea:read-write {
   background-size: 100% 2px, 100% 1px;
+}
+
+textarea:focus {
   outline: none;
 }

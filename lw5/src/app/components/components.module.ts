@@ -11,6 +11,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { ButtonComponent } from './button/button.component';
 import { MainTabComponent } from './main-tab/main-tab.component';
 import { HeaderComponent } from './header/header.component';
+import { SwitchComponent } from './switch/switch.component';
 
 @NgModule({
   imports: [
@@ -27,7 +28,8 @@ import { HeaderComponent } from './header/header.component';
     TabsComponent,
     ButtonComponent,
     MainTabComponent,
-    HeaderComponent
+    HeaderComponent,
+    SwitchComponent
   ],
   exports: [
     LeftSideComponent,
